@@ -1,202 +1,128 @@
-# **EduFi - AI-Powered Private Education Financing with ZK-Proofs**
+# EduFi: Private Education Financing Platform
 
-## **Deployments**
+![EduFi Banner](https://i.imgur.com/example.png)
 
-# Deployed Contract Addresses
+## 🚀 Project Overview
 
-| Contract | ARB Address                                                                                                                    | Edu Chain Address                                                                                                                           |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| ZKIncome | [`0x3e4DD76CC6433274d676244eA7162f1aCE559Dbb`](https://sepolia.arbiscan.io/address/0x3e4DD76CC6433274d676244eA7162f1aCE559Dbb) | [`0x8030d7e5b94F4D6bb6C2638dEa9aFb2D5E7f5d31`](https://edu-chain-testnet.blockscout.com/address/0x8030d7e5b94F4D6bb6C2638dEa9aFb2D5E7f5d31) |
-| EduFi    | [`0x56F6DDc14A5AB38Ae03f6437f7b4a9bE6252327a`](https://sepolia.arbiscan.io/address/0x56F6DDc14A5AB38Ae03f6437f7b4a9bE6252327a) | [`0x6674256E7461518B5Be7F2FB43029132d9385385`](https://edu-chain-testnet.blockscout.com/address/0x6674256E7461518B5Be7F2FB43029132d9385385) |
-| ZKV      | [`0x82941a739E74eBFaC72D0d0f8E81B1Dac2f586D5`](https://sepolia.arbiscan.io/address/0x82941a739E74eBFaC72D0d0f8E81B1Dac2f586D5) | [`0x147AD899D1773f5De5e064C33088b58c7acb7acf`](https://edu-chain-testnet.blockscout.com/address/0x147AD899D1773f5De5e064C33088b58c7acb7acf) |
+EduFi is a revolutionary decentralized education financing platform leveraging zero-knowledge proofs and AI to make quality education accessible to everyone while preserving financial privacy.
 
-## **Problem Statement**
+### 🌟 Key Features
 
-Education is a powerful tool for social mobility, but access to quality education remains a challenge, especially in underdeveloped and developing countries. Many students struggle with financial constraints and lack access to fair, transparent, and secure education financing options.
+- **Privacy-First Income Verification**: Verify income eligibility without revealing sensitive financial data
+- **AI-Powered Course Matching**: Get personalized education recommendations based on your goals and market demand
+- **Decentralized Financing**: Smart-contract-based loans with transparent terms and efficient processing
+- **AI Study Advisor**: 24/7 support for education financing and course selection questions
+- **Blockchain Credential Management**: Securely store and verify your educational credentials on-chain
 
-Traditional student loans often come with high-interest rates, complex paperwork, and predatory lending practices that discourage students from pursuing higher education. Additionally, existing scholarship and fundraising models focus on charity rather than sustainable financial responsibility.
+## 🏆 Hackathon Pitch Demo
 
-### **Key Challenges**
+### 🎯 Problem Statement
 
-- **Financial Accessibility:** Students in low-income families have no way to secure loans without collateral or high credit scores.
-- **Lack of Privacy:** Loan applications require users to disclose sensitive financial data, leading to security risks and bias.
-- **Inefficiency of Existing Loan Systems:** Traditional student loans are slow, centralized, and bureaucratic.
-- **Lack of Personalized Learning Paths:** Students struggle to find the right courses that align with their career goals.
-- **Absence of Incentives for Learning:** No mechanism exists to reward students for completing courses and repaying loans responsibly.
+In today's world, access to education is often limited by financial constraints, complicated loan processes, and privacy concerns. Traditional financing methods require extensive documentation and reveal sensitive information, while failing to match students with courses that offer the best return on investment.
 
-## **🎯 Our Solution - EduFi**
+### 💡 Our Solution
 
-EduFi is a decentralized education financing platform that combines **privacy-preserving micro-financing with AI-driven course matching**. It enables students to access education loans **without exposing sensitive financial data** while ensuring responsible repayment.
+EduFi combines zero-knowledge proofs, smart contracts, and AI to create a privacy-preserving education financing platform that:
 
-With **zero-knowledge proofs (ZK-Proofs)** for income verification and **AI-powered recommendations**, EduFi makes education financing secure, personalized, and accessible. Students receive micro-loans that they must **pay back based on hard work and reputation**, fostering financial responsibility rather than reliance on charity.
+1. Allows users to prove income eligibility without revealing exact income
+2. Matches users with courses based on their career goals and market opportunities
+3. Streamlines loan approvals with smart contracts and efficient verification
+4. Provides AI-powered guidance throughout the education financing journey
 
-The platform also introduces a **Decentralized Reputation System**, where students build an **on-chain education score** (similar to a credit score) based on completed courses and timely loan repayments. This incentivized learning system ensures that students not only upskill themselves but also contribute back to the ecosystem.
+### 🛠️ Tech Stack
 
-## **🚀 Key Features**
+- **Blockchain**: Ethereum, EduChain (L2), Zero-Knowledge Proofs
+- **Smart Contracts**: Solidity, Hardhat
+- **Frontend**: React.js, Vite, TailwindCSS
+- **Backend**: Node.js, Express
+- **AI Integration**: Generative AI models for course recommendations and education advice
+- **Authentication**: Wallet-based authentication
 
-### **1️⃣ Zero-Knowledge Income Verification**
+### 🔍 Demo Walkthrough
 
-- Uses **Groth16 ZK-Proofs** (Circom + SnarkJS) to verify income without exposing raw financial data.
-- Proof is verified on-chain using **ZKVerify smart contract** deployed on **EduChain and Arbitrum Sepolia**.
-- Ensures **privacy-first financing**, removing bias and fraud risks.
+1. **User Onboarding**:
+   - Connect wallet to the platform
+   - Verify income privately using zero-knowledge proofs
 
-### **2️⃣ AI-Based Course and Career Matchmaking**
+2. **Course Discovery**:
+   - Take a brief skills and goals assessment
+   - Receive AI-generated course recommendations optimized for ROI
 
-- **AI-driven questionnaire** to assess the user’s goals, skills, and market trends.
-- Matches students with the **best courses** based on:
-  - Market demand and industry trends.
-  - User's education background and time commitment.
-  - Course completion rates and outcomes.
-- Helps students **maximize their education ROI** while ensuring they can repay loans.
+3. **Loan Application**:
+   - Select a course and desired loan terms
+   - Smart contracts automatically verify eligibility
+   - Receive transparent repayment schedules
 
-### **3️⃣ Decentralized Micro-Loans for Education**
+4. **Learning Journey**:
+   - Access learning materials
+   - Track progress and manage certificates
+   - Get AI assistance for studying efficiently
 
-- Students apply for **small, manageable loans** based on their income and career goals.
-- **Transparent repayment schedules** with a built-in **loan calculator**.
-- **Loans are recorded on-chain**, ensuring security, trust, and auditability.
-- EduFi smart contract verifies **ZK income proof** before approving loans.
+## 🎬 Quick Start Guide
 
-### **4️⃣ Decentralized Certifications & Reputation Score**
+### Prerequisites
 
-- Students upload **course completion certificates** to **IPFS**, ensuring permanent, tamper-proof storage.
-- A **dynamic reputation score** (like a credit score for education) is awarded based on:
-  - Completed courses.
-  - Timely loan repayments.
-- A **higher reputation score** grants access to **better loan terms** and **higher funding amounts**.
+- Node.js v16+
+- MetaMask or compatible wallet
+- Some EduChain Testnet ETH (for testing)
 
-### **5️⃣ AI-Powered Assistant for Students**
+### Installation and Setup
 
-- **Integrated AI chatbot** (Gemini 1.5) to guide students through:
-  - **Platform usage** and onboarding.
-  - **Financial guidance** for loan management.
-  - **Technical and academic support** for coursework.
-
-### **6️⃣ On-Chain AI Agent for Web3 Simplification**
-
-- **Powered by Coinbase AgentKit + GAIA + Hyperbolic LLM nodes.**
-- **Executes on-chain transactions** using **natural language commands** (e.g., "Repay my loan").
-- Automates:
-  - Wallet creation and funding.
-  - Loan repayments and transactions.
-  - Future scope: Automating all smart contract interactions for a **completely gas-abstracted experience**.
-
-## **📜 User Flow**
-
-1️⃣ **Wallet Connection**
-
-- Users connect via **Reown AppKit WalletConnect SDK**.
-
-2️⃣ **ZK Income Verification**
-
-- User enters their income.
-- A **Groth16 ZK-Proof** is generated (Circom + SnarkJS).
-- The proof is verified on-chain using **ZKVerify smart contract** (EduChain + Arbitrum Sepolia).
-- **EduFi smart contract** validates attestation proof and emits an event.
-
-3️⃣ **AI-Powered Career & Course Matchmaking**
-
-- Users fill a questionnaire.
-- AI recommends personalized learning paths.
-
-4️⃣ **Loan Application & Approval**
-
-- Users apply for a micro-loan with a transparent repayment plan.
-- **EduFi smart contract** verifies ZK proof before approving loans.
-
-5️⃣ **Course Completion & Certification**
-
-- Users complete courses and upload proof to **IPFS**.
-- A **reputation score** is assigned based on completed courses and timely repayments.
-
-6️⃣ **Loan Repayment & Reputation Growth**
-
-- Loans are repaid on-chain.
-- Users with high reputation scores get **better loan terms** and **higher funding limits** in the future.
-
-## **🛠️ Technology Stack**
-
-### **Blockchain & Smart Contracts**
-
-- **EduFi Smart Contract:** Deployed on **EduChain + Arbitrum Sepolia**
-- **ZKProofs:** Circom, SnarkJS, ZKVerify
-- **Storage:** IPFS for decentralized certification storage
-
-### **AI & Machine Learning**
-
-- **Course & Career Matchmaking:** Custom AI model
-- **AI Assistant:** Gemini 1.5
-- **Onchain AI Agent:** Coinbase AgentKit, GAIA, Hyperbolic LLM
-
-### **Frontend & Wallet Integration**
-
-- **Wallet:** Reown AppKit WalletConnect SDK
-- **Frontend:** Next.js, Tailwind CSS
-
-## **🌍 Impact**
-
-✅ **Empowers students in underdeveloped/developing nations** with affordable education financing.  
-✅ **Teaches financial responsibility** through micro-loans instead of unsustainable donations.  
-✅ **Enables skill-based lending**, ensuring funding reaches serious learners.  
-✅ **Creates an on-chain reputation system**, incentivizing continuous upskilling.  
-✅ **Bridges Web2 and Web3**, making blockchain technology accessible to non-tech-savvy students.
-
-## **🔮 Future Work**
-
-- **Enforcing loan repayments & adding penalties for non-repayment.**
-- **Implementing dynamic reputation scoring** (decays over time if user does not upskill/contribute back).
-- **Supporting partial loans** based on financial constraints.
-- **Abstracting all smart contract interactions** (no manual signing required).
-- **Integrating stable yield mechanisms** to **grow repaid loans & fund future learners.**
-
-## Generating ZK Proofs
-
-### 1. Compile Circuit
-
+1. **Clone the repository**:
 ```bash
-circom incomeProof.circom --r1cs --wasm --sym
+git clone https://github.com/yourusername/edufi.git
+cd edufi
 ```
 
-### 2. Generate the proving and verification keys:
-
-```bash
-snarkjs powersoftau new bn128 12 pot12_0000.ptau
-snarkjs powersoftau contribute pot12_0000.ptau pot12_0001.ptau
-snarkjs powersoftau prepare phase2 pot12_0001.ptau pot12_final.ptau
-snarkjs groth16 setup incomeProof.r1cs pot12_final.ptau incomeProof_0000.zkey
-snarkjs zkey contribute incomeProof_0000.zkey incomeProof_0001.zkey
-snarkjs zkey export verificationkey incomeProof_0001.zkey verification_key.json
-```
-
-### 3. Deploy contract
-
-```bash
-npx hardhat clean
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network opencampus
-```
-
-### Add all .env files in backend, frontend, contracts folders.
-
-### 4 . In backend folder generate vk hash
-
+2. **Set up the backend**:
 ```bash
 cd backend
-node register_vk.js
+npm install
+cp .env.template .env
+# Configure your .env file with appropriate values
+npm start
 ```
 
-### 5. Add VK_HASH to .env in contracts folder
-
-### 6 . Run backend
-
+3. **Set up the frontend**:
 ```bash
-cd backend
-node index.js
-```
-
-### 7 . Run frontend
-
-```bash
-cd frontend
-cd vite-project
+cd frontend/vite-project
+npm install
+# Create .env with contract addresses
 npm run dev
 ```
+
+4. **Open the application**:
+Navigate to `http://localhost:5173` in your browser
+
+## 🔮 Future Roadmap
+
+- **Multi-chain support**: Expand beyond EduChain to other L2 solutions
+- **Decentralized funding pool**: Create a DAO-governed funding mechanism
+- **Enhanced credential verification**: Implement a comprehensive credential verification system
+- **Global education marketplace**: Connect students with educational institutions worldwide
+- **Adaptive learning integration**: Personalized learning paths based on progress and goals
+
+## 🧪 Contracts & Verification
+
+Our smart contracts are deployed on the EduChain Testnet:
+
+- **ZkIncomeVerification**: [0xDf006344501d282D6f05Ea211Ce0127Df7817dbA](https://edu-chain-testnet.blockscout.com/address/0xDf006344501d282D6f05Ea211Ce0127Df7817dbA)
+- **EduFiLoan**: [0xA8e9acdEAb380c3Eb26610Ee091AbC7dB5ED890f](https://edu-chain-testnet.blockscout.com/address/0xA8e9acdEAb380c3Eb26610Ee091AbC7dB5ED890f)
+
+## 👥 Team
+
+- **Kunal Drall**: Lead Developer & Project Manager
+- **[Team Member]**: AI Integration & Backend Development
+- **[Team Member]**: Smart Contract Development
+- **[Team Member]**: Frontend Development & UX Design
+- **[Team Member]**: Business Development
+
+## 📋 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+<p align="center">
+  <em>Learn Privately, Fund Securely, Grow Confidently</em>
+</p>

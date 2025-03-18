@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-ethers");
 require("dotenv").config();
+require("@nomicfoundation/hardhat-verify");
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL;
@@ -36,8 +37,14 @@ module.exports = {
       accounts: [PRIVATE_KEY],
       chainId: 421614,
     },
+    "edu-chain-testnet": {
+      url: `https://rpc.open-campus-codex.gelato.digital`,
+      accounts: [PRIVATE_KEY],
+      chainId: 656476,
+    },
+    // Keep the opencampus config if it already exists
     opencampus: {
-      url: `https://rpc.open-campus-codex.gelato.digital/`,
+      url: `https://rpc.open-campus-codex.gelato.digital`,
       accounts: [PRIVATE_KEY],
     },
   },
@@ -47,4 +54,19 @@ module.exports = {
     cache: "./cache",
     artifacts: "./artifacts",
   },
+etherscan: {
+  apiKey: {
+    "edu-chain-testnet": "NHDYMWKRJ3BDB51FKZR15ZY9JH4K9AKEIR"
+  },
+  customChains: [
+    {
+      network: "edu-chain-testnet",
+      chainId: 656476,
+      urls: {
+        apiURL: "https://edu-chain-testnet.blockscout.com/api",
+        browserURL: "https://edu-chain-testnet.blockscout.com"
+      }
+    }
+  ]
+},
 };

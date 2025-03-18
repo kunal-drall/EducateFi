@@ -1,0 +1,9 @@
+{
+  "network": "edu-chain-testnet",
+  "zkIncomeVerificationAddress": "0xDf006344501d282D6f05Ea211Ce0127Df7817dbA",
+  "eduFiLoanAddress": "0xA8e9acdEAb380c3Eb26610Ee091AbC7dB5ED890f",
+  "zkVerifyContract": "0x147AD899D1773f5De5e064C33088b58c7acb7acf",
+  "vkHash": "0xcd9079ce2c24819db62dc22e367f3d67872c5d74ad160ffc148a8883dd56a708",
+  "deploymentTime": "2025-03-18T04:52:00.408Z",
+  "deployer": "0xAe87320F8c7074CCAC0F66BFcfC370eeCDb67392"
+}
