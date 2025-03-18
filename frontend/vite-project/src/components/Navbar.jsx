@@ -29,7 +29,7 @@ const Navbar = () => {
               className="text-xl font-bold text-transparent bg-clip-text 
                                     bg-gradient-to-r from-emerald-400 to-emerald-200"
             >
-              EduFi
+              EducateFi
             </Link>
           </div>
 

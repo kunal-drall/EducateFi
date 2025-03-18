@@ -17,7 +17,7 @@ import { EthersAdapter } from "@reown/appkit-adapter-ethers";
 const projectId = "a0c03874a5caec0f3bdcd4de5cd862ae";
 
 const metadata = {
-  name: "EduFi",
+  name: "EducateFi",
   description: "AI-Powered Private Education Financing Platform",
   url: "https://example.com", // Your website
   icons: ["https://your-icon-url.com"], // Your app icon

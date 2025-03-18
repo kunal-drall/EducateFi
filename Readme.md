@@ -1,10 +1,10 @@
-# EduFi: Private Education Financing Platform
+# EducateFi: Private Education Financing Platform
 
-![EduFi Banner](https://i.imgur.com/example.png)
+
 
 ## 🚀 Project Overview
 
-EduFi is a revolutionary decentralized education financing platform leveraging zero-knowledge proofs and AI to make quality education accessible to everyone while preserving financial privacy.
+EducateFi is a revolutionary decentralized education financing platform leveraging zero-knowledge proofs and AI to make quality education accessible to everyone while preserving financial privacy.
 
 ### 🌟 Key Features
 
@@ -22,7 +22,7 @@ In today's world, access to education is often limited by financial constraints,
 
 ### 💡 Our Solution
 
-EduFi combines zero-knowledge proofs, smart contracts, and AI to create a privacy-preserving education financing platform that:
+EducateFi combines zero-knowledge proofs, smart contracts, and AI to create a privacy-preserving education financing platform that:
 
 1. Allows users to prove income eligibility without revealing exact income
 2. Matches users with courses based on their career goals and market opportunities
@@ -112,10 +112,9 @@ Our smart contracts are deployed on the EduChain Testnet:
 ## 👥 Team
 
 - **Kunal Drall**: Lead Developer & Project Manager
-- **[Team Member]**: AI Integration & Backend Development
-- **[Team Member]**: Smart Contract Development
-- **[Team Member]**: Frontend Development & UX Design
-- **[Team Member]**: Business Development
+- **Kunal Rao**: AI Integration & Backend Development
+- **Dipanshu Yadav**: Smart Contract Development
+- **Rohit Sangwan**: Frontend Development & UX Design
 
 ## 📋 License
 
